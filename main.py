@@ -26,7 +26,7 @@ while(True):
     choice = input("\n\nPlease enter the stock symbol from the list whose data you wish to visualize or if you wish to quit type in q: ")
     if choice == "q" or choice == "Q":
         exit()
-    print(f"\nYou wish to view {choice} stock graph!")
+    print(colored(f"\nYou wish to view {choice} stock graph!", "blue"))
 
     # Try and Except block to check if stock exists and try to plot graph based on its data
     try:
