@@ -1,19 +1,28 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from datetime import datetime
 
 class Scraper:
-
-    def __init__(self):
-        """
-        Placeholder
-        """
-    
+    """
+    Scraper Class: It handles the main functionality of scraping data in form of tables from the given url or stock name,
+    through its functions scrape_table() and stock_grabber() respectively.
+    """
     def __repr__(self):
+        """
+        Representation of scraper class is defined here.
+        The representation is show when an object of the class is printed.
+        """
         return "Scraper Class"
 
     def scrape_table(self, url):
+        """
+        This function scrapes a table from the given url and returns it as a Pandas DataFrame.
+        Beautiful Soup and Requests libraries are used for scraping the table.
+        Pandas is used for storing the table as a DataFrame.
+
+        Parameters:
+        - URL: A String containing url of website to scrape.
+        """
         soup = BeautifulSoup(requests.get(url).text, features="html.parser")
         headers = [header.text for listing in soup.find_all('thead') for header in listing.find_all('th')]
         raw_data = {header:[] for header in headers}
@@ -27,7 +36,12 @@ class Scraper:
         return pd.DataFrame(raw_data)[:90]
 
     def stock_grabber(self, stock_name, df=pd.DataFrame()):
-        # if f"{stock_name}.NS" in df["Symbol"].values:
+        """
+        This function accepts the name of desired stock and returns a Pandas DataFrame,
+        containing its data in a tabular form.
+        It does so by calling another function in its class scrape_table().
+
+        Parameters:
+        - Stock Name: A String that contains name of stock whose data is to be retrieved.
+        """
         return self.scrape_table(f"https://finance.yahoo.com/quote/{stock_name}.NS/history?p={stock_name}.NS")
-        # else:
-            # raise Exception("No such stock name exists in our list! Please try again")

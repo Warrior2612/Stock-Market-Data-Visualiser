@@ -22,7 +22,7 @@ class Column_Converter:
 
     def format_symbol_column(self, df):
         """
-        Placeholder
+        Removes everything after `.` in Symbol column of scraped table
         """
         symbol_column = df["Symbol"]
         new_symbol_column = []
@@ -44,7 +44,8 @@ class Column_Converter:
 
     def remove_column(self, column, df=pd.DataFrame()):
         """
-        Placeholder
+        Removes specified column
         """
+        # Using Pandas drop() function to drop a column
         df.drop(f"{column}", axis=1, inplace=True)
         return df
