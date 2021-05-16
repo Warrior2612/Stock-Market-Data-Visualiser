@@ -23,14 +23,14 @@ while(True):
     print(colored(cc.format_symbol_column(most_active_table), "green"))
 
     # Taking user choice regarding the stock whose data they wish to visualize or if they wish to exit
-    x = input("\n\nPlease enter the stock symbol from the list whose data you wish to visualize or if you wish to quit type in q: ")
-    if x == "q" or x == "Q":
+    choice = input("\n\nPlease enter the stock symbol from the list whose data you wish to visualize or if you wish to quit type in q: ")
+    if choice == "q" or choice == "Q":
         exit()
-    print(f"\nYou wish to view {x} stock graph!")
+    print(f"\nYou wish to view {choice} stock graph!")
 
     # Try and Except block to check if stock exists and try to plot graph based on its data
     try:
-        chosen_stock = scr.stock_grabber(x, most_active_table)
+        chosen_stock = scr.stock_grabber(choice, most_active_table)
         plt = PlotGraph(chosen_stock)
     except Exception as e:
         # Raising an error in case of any error and waiting 2 secs before giving user choice again

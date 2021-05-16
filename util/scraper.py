@@ -18,7 +18,7 @@ class Scraper:
         """
         This function scrapes a table from the given url and returns it as a Pandas DataFrame.
         Beautiful Soup and Requests libraries are used for scraping the table.
-        Pandas is used for storing the table as a DataFrame.
+        Pandas is used for storing the table as a DataFrame (table).
 
         Parameters:
         - URL: A String containing url of website to scrape.
