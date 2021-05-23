@@ -154,5 +154,5 @@ Project Link: [https://github.com/Warrior2612/Stock-Market-Data-Visualiser](http
 [issues-shield]: https://img.shields.io/github/issues/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
 [issues-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/issues
 [license-shield]: https://img.shields.io/github/license/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
-[license-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/blob/master/LICENSE.txt
+[license-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/blob/main/LICENSE.txt
 [product-screenshot]: images/screenshot.png
