@@ -101,7 +101,7 @@ This is an example of how to list things you need to use the software and how to
    ```
    - **Mac/Linux**
    ```
-   source virtualenv_name/bin/activate
+   source env/bin/activate
    ```
 4. Install Required PIP packages
    ```sh
