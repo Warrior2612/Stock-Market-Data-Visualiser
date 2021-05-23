@@ -138,22 +138,22 @@ Project Link: [https://github.com/Warrior2612/Stock-Market-Data-Visualiser](http
 ## Acknowledgements
 
 * [https://github.com/Warrior2612](Pratham Mehta)
-* []()
-* []()
+* [](Manav Modi)
+* [](Bhavesh Ghanchi)
 
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
+[contributors-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
+[forks-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/network/members
+[stars-shield]: https://img.shields.io/github/stars/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
+[stars-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
+[issues-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/issues
+[license-shield]: https://img.shields.io/github/license/Warrior2612/Stock-Market-Data-Visualiser.svg?style=for-the-badge
+[license-url]: https://github.com/Warrior2612/Stock-Market-Data-Visualiser/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
