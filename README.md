@@ -123,7 +123,7 @@ This is an example of how to list things you need to use the software and how to
 ## Contributions
 - Pratham Mehta - <a>https://github.com/Warrior2612</a>
 - Manav Modi - <a>https://github.com/manavmodi123</a>
-- Bhavesh Ghanchi
+- Bhavesh Ghanchi - <a>https://github.com/bhgh001</a>
   
   
   
