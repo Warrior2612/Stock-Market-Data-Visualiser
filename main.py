@@ -25,6 +25,7 @@ while(True):
     # Taking user choice regarding the stock whose data they wish to visualize or if they wish to exit
     choice = input("\n\nPlease enter the stock symbol from the list whose data you wish to visualize or if you wish to quit type in q: ")
     if choice == "q" or choice == "Q":
+        print(colored("\nThank you for using our program! Please Come Again!", "magenta"))
         exit()
     print(colored(f"\nYou wish to view {choice} stock graph!", "blue"))
 
