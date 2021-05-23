@@ -48,9 +48,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributions</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -95,11 +95,11 @@ This is an example of how to list things you need to use the software and how to
    virtualenv env
    ```
 3. Activate Virtual Environment
-   ** Windows **
+   - **Windows**
    ```
    env\Scripts\activate.bat
    ```
-   ** Mac/Linux **
+   - **Mac/Linux**
    ```
    source virtualenv_name/bin/activate
    ```
@@ -117,7 +117,16 @@ This is an example of how to list things you need to use the software and how to
 - The program is completely modular and well documented so the individual functionalities like the scraper function can be used for other derivative projects.
 - The individual files also include testing code for individual usage.
 
-
+  
+  
+<!-- CONTRIBUTING -->
+## Contributions
+- Pratham Mehta - <a>https://github.com/Warrior2612</a>
+- Manav Modi
+- Bhavesh Ghanchi
+  
+  
+  
 <!-- LICENSE -->
 ## License
 
@@ -131,16 +140,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Pratham Mehta - pratham.rm@somaiya.edu
 
 Project Link: [https://github.com/Warrior2612/Stock-Market-Data-Visualiser](https://github.com/Warrior2612/Stock-Market-Data-Visualiser)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [https://github.com/Warrior2612](Pratham Mehta)
-* [](Manav Modi)
-* [](Bhavesh Ghanchi)
-
 
 
 
