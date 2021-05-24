@@ -49,3 +49,19 @@ class Column_Converter:
         # Using Pandas drop() function to drop a column
         df.drop(f"{column}", axis=1, inplace=True)
         return df
+
+if __name__ == '__main__':
+    from util.scraper import Scraper
+    from config import *
+    scr = Scraper()
+    cc = Column_Converter()
+    table = scr.scrape_table(STOCK_GAINERS_URL)
+    print("\nBefore any changes:\n")
+    print(table)
+    print("\nRemoved 52 week range:\n")
+    table = cc.remove_column("52-week range", table)
+    print(table)
+    print("\nRemoved .NS from symbol column:\n")
+    table = cc.format_symbol_column(table)
+    print(table)
+    

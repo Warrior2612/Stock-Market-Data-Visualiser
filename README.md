@@ -116,8 +116,9 @@ This is an example of how to list things you need to use the software and how to
 - The main.py file contains example code that can be used for the project. 
 - The program is completely modular and well documented so the individual functionalities like the scraper function can be used for other derivative projects.
 - The individual files also include testing code for individual usage.
+- Contains the test scripts for individual functionalities in scripts folder.
 
-**Click on RUN.bat to execute the sample code!**
+**Click on RUN.exe to execute the sample code!**
 
   
   

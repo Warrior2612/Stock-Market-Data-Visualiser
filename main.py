@@ -36,7 +36,7 @@ while(True):
 
     # Try and Except block to check if stock exists and try to plot graph based on its data
     try:
-        chosen_stock = scr.stock_grabber(choice, most_active_table)
+        chosen_stock = scr.stock_grabber(choice)
         PlotGraph(chosen_stock)
     except Exception as e:
         # Raising an error in case of any error and waiting 2 secs before giving user choice again

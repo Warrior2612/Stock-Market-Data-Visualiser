@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
+from config import *
+
 class Scraper:
     """
     Scraper Class: It handles the main functionality of scraping data in form of tables from the given url or stock name,
@@ -35,7 +37,7 @@ class Scraper:
 
         return pd.DataFrame(raw_data)[:90]
 
-    def stock_grabber(self, stock_name, df=pd.DataFrame()):
+    def stock_grabber(self, stock_name):
         """
         This function accepts the name of desired stock and returns a Pandas DataFrame,
         containing its data in a tabular form.
@@ -45,3 +47,12 @@ class Scraper:
         - Stock Name: A String that contains name of stock whose data is to be retrieved.
         """
         return self.scrape_table(f"https://finance.yahoo.com/quote/{stock_name}.NS/history?p={stock_name}.NS")
+
+if __name__ == '__main__':
+    scr = Scraper()
+    print("\nMutual Funds:")
+    print(scr.scrape_table(MUTUAL_FUNDS_URL))
+    print("\nCryptocurrencies:\n")
+    print(scr.scrape_table(CRYPTOCURRENCIES_URL))
+    print("\nICICIBank last 10 days history:\n")
+    print(scr.stock_grabber("ICICIBANK")[:10])
