@@ -41,4 +41,4 @@ while(True):
     except Exception as e:
         # Raising an error in case of any error and waiting 2 secs before giving user choice again
         print(colored(f"Error: No such stock exists in our database! Please try again", "red"))
-        time.sleep(2)
+        time.sleep(1)
