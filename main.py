@@ -1,4 +1,5 @@
 from termcolor import colored
+import colorama
 import time
 
 # Importing Self-Created Local Modules
@@ -6,6 +7,9 @@ from util.scraper import Scraper
 from util.column_converter import Column_Converter
 from util.plot import PlotGraph
 from config import MOST_ACTIVE_STOCKS_URL
+
+# Initializing colorama so that colors are displayed in terminal
+colorama.init()
 
 # Initializing objects of Scraper and Column_Converter classes
 scr = Scraper()
@@ -26,6 +30,7 @@ while(True):
     choice = input("\n\nPlease enter the stock symbol from the list whose data you wish to visualize or if you wish to quit type in q: ")
     if choice == "q" or choice == "Q":
         print(colored("\nThank you for using our program! Please Come Again!", "magenta"))
+        time.sleep(1)
         exit()
     print(colored(f"\nYou wish to view {choice} stock graph!", "blue"))
 

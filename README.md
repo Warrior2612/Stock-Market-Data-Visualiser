@@ -117,6 +117,8 @@ This is an example of how to list things you need to use the software and how to
 - The program is completely modular and well documented so the individual functionalities like the scraper function can be used for other derivative projects.
 - The individual files also include testing code for individual usage.
 
+**Click on RUN.bat to execute the sample code!**
+
   
   
 <!-- CONTRIBUTING -->
