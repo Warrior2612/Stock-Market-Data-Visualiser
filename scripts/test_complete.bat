@@ -1,4 +1,4 @@
 cd..
-CALL env/Scripts/activate.bat
-python main.py
+CALL smdv-env/Scripts/activate.bat
+python main.pyw
 cmd /k
