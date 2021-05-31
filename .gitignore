@@ -20821,3 +20821,5 @@ env/Lib/site-packages/__pycache__/pyparsing.cpython-39.pyc
 env/Lib/site-packages/__pycache__/easy_install.cpython-39.pyc
 env/Lib/site-packages/__pycache__/cycler.cpython-39.pyc
 env/etc/jupyter/nbconfig/notebook.d/plotlywidget.json
+Compiled/Install Data Visualizer.exe
+util/__pycache__/gui.cpython-39.pyc

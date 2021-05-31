@@ -20,15 +20,15 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\LICENSE.txt
-InfoBeforeFile=C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\README.txt
-InfoAfterFile=C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\README.txt
+LicenseFile=C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\LICENSE.txt
+InfoBeforeFile=C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\README.txt
+InfoAfterFile=C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\README.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\Compiled
+OutputDir=C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\Compiled
 OutputBaseFilename=Install Data Visualizer
-SetupIconFile=C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\images\logo.ico
+SetupIconFile=C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\images\logo.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -40,8 +40,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\RUN.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Pratham\Documents\CodeProjects\Stock-Market-Data-Visualizer\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\RUN.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Pratham\Documents\CodeProjects\PythonMiniProject\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
