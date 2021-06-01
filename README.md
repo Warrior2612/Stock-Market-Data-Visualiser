@@ -92,16 +92,16 @@ This is an example of how to list things you need to use the software and how to
    pip install virtualenv
    ```
    ```
-   virtualenv env
+   virtualenv smdv-env
    ```
 3. Activate Virtual Environment
    - **Windows**
    ```
-   env\Scripts\activate.bat
+   smdv-env\Scripts\activate.bat
    ```
    - **Mac/Linux**
    ```
-   source env/bin/activate
+   source smdv-env/bin/activate
    ```
 4. Install Required PIP packages
    ```sh
