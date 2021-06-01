@@ -62,6 +62,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 **KJ Somaiya College FY BTECH Python MiniProject**
+Create a virtual environment named `smdv-env` if you want to use the exe and bat files.
 
 
 ### Built With
