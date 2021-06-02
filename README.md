@@ -62,6 +62,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 **KJ Somaiya College FY BTECH Python MiniProject**
+Create a virtual environment named `smdv-env` if you want to use the exe and bat files.
 
 
 ### Built With
@@ -92,16 +93,16 @@ This is an example of how to list things you need to use the software and how to
    pip install virtualenv
    ```
    ```
-   virtualenv env
+   virtualenv smdv-env
    ```
 3. Activate Virtual Environment
    - **Windows**
    ```
-   env\Scripts\activate.bat
+   smdv-env\Scripts\activate.bat
    ```
    - **Mac/Linux**
    ```
-   source env/bin/activate
+   source smdv-env/bin/activate
    ```
 4. Install Required PIP packages
    ```sh
