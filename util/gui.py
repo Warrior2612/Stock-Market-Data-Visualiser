@@ -35,6 +35,7 @@ class StockApp(Frame):
             q=Button(bp, text="Quit", command=quit)
             q.pack()
             pt.show()
+            self.main.protocol('WM_DELETE_WINDOW',self.quit)
             return
 
         def gui_to_plot(self, input):
@@ -49,6 +50,7 @@ class StockApp(Frame):
         def quit(self):
             self.main.destroy()
             exit()
+            return
 
         def color_table(self):
             j = 0
